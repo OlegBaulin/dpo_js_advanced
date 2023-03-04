@@ -1,0 +1,17 @@
+.css-button {
+  display: none;
+  width: 100px;
+  position: fixed;
+  right: 20px;
+  bottom: 5%;
+}
+
+.css-text {
+  width: 90%;
+  margin-left: 40px;
+  margin-top: 40px;
+}
+
+.active {
+  display: block;
+}
