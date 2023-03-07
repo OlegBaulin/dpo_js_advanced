@@ -11,5 +11,12 @@ module.exports = {
     'no-iterator': 0,
     'no-restricted-syntax': [2, 'WithStatement'],
     'func-style': 0,
+    'linebreak-style': 0,
+    'prefer-destructuring': ['error', { object: true, array: false }],
+  },
+  parser: 'babel-eslint',
+  parserOptions: {
+    sourceType: 'module',
+    allowImportExportEverywhere: true,
   },
 };
