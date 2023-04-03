@@ -2,12 +2,24 @@
   "private": true,
   "scripts": {
     "lint": "eslint ./",
-    "lint:report": "eslint ./"
+    "lint:report": "eslint ./",
+    "lint-fix": "eslint --fix .",
+    "dev": "parcel index.html",
+    "build": "parcel build index.html"
   },
   "devDependencies": {
     "eslint": "^7.15.0",
     "eslint-config-airbnb-base": "^14.2.1",
     "eslint-formatter-gitlab": "^2.1.0",
-    "eslint-plugin-import": "^2.22.1"
+    "eslint-plugin-import": "^2.22.1",
+    "@parcel/resolver-glob": "^2.4.1"
+  },
+  "dependencies": {
+    "card-info": "^1.2.4",
+    "creditcard.js": "^3.0.16",
+    "inputmask": "^5.0.7",
+    "parcel": "^2.4.1",
+    "redom": "^3.27.1",
+    "validator": "^13.7.0"
   }
 }
